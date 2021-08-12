@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- fontAwesome -->
+     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"data-search-pseudo-elements></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Tica-Tac-Toe by:Luca Credentino</title>
+</head>
+<body>
+    <section class="section_point">
+        <div class="container_points">
+            <p>X <span class="x_points">-</span></p>
+        </div>
+        <div class="container_points">
+            <p>o<span class="o_points">-</span></p>
+        </div>
+    </section>
+    <div class="start">
+        <button class="startgame">Start game</button>
+        <button class="mt-4 resetpoint">Reset points</button>
+    </div>
+    <div class="tictactoe_section">
+        <table>
+            <tr>
+              <td class="top_right_box"></td>
+              <td class="vert top_mid_box"></td>
+              <td class="top_left_box"></td>
+            </tr>
+            <tr>
+              <td class="hori mid_top_box"></td>
+              <td class="vert hori mid_box"></td>
+              <td class="hori mid_left_box"></td>
+            </tr>
+            <tr>
+              <td class="bot_right_box"></td>
+              <td class="vert bot_mid_box"></td>
+              <td class="bot_left_box"></td>
+            </tr>
+          </table>
+    </div>
+    <div class="container-fluid myprofile">
+      <i class="fab fa-github fa-2x githublogo mb-2"></i>
+      <a class="luca" href="https://github.com/Luca-Credentino">@Luca Credentino</a>
+  </div>
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>

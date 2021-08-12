@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+}
+
+.section_point{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.container_points{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 38px;
+    border-radius: 16px;
+    border-bottom: 3px solid cadetblue;
+    background-color: #fff;
+}
+p{
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 1rem;
+}
+span{
+    margin-left: 10rem;
+    margin-right: 1rem;
+    color: rgba(0,0,0,.53);
+}
+.start{
+    text-align: center;
+    margin-top: 3rem;
+}
+.player::before{
+    transition: 300ms;
+}
+.player::after{
+    transition: 300ms;
+}
+.player{
+    font-size: 24px;
+    margin-top: 8px;
+    font-weight: 900;
+}
+button{
+    border: none;
+    padding: 6px 20px;
+    background-color: #ffff;
+    color: cadetblue;
+    border-radius: 20px;
+    font-weight: 900;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: all ease-in-out 300ms;
+}button:focus{
+    transform: translateY(2px);
+}
+.start{
+    display: grid;
+    width: max-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tictactoe_section{ margin-top: 6rem; }
+
+  td {
+    width: 100px;
+    height: 100px;
+  }
+  table {
+    margin: 5px auto;
+  }
+  .vert {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+  .hori {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+.x{
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  position: relative;
+}.x:after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "X";
+    font-weight: 900;
+    color: #fff;
+    font-size: 64px;
+    line-height: 100px;
+    text-align: center
+}
+
+.circle::before{ 
+    content: "O";
+    position: relative;
+    margin-left: 30%;
+    font-size: 64px;
+    color: #fff;
+    font-weight: 900;
+}
+
+/*  profile   */
+
+.myprofile{
+    display: grid;
+    justify-items: center;
+    margin-top: 8rem;
+}
+.myprofile a {
+    color: white;
+    font-weight: 700;
+}
